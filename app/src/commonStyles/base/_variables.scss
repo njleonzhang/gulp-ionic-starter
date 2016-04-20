@@ -1,0 +1,133 @@
+/**
+ * Define variables here
+ */
+
+$textColor: #ccc;
+
+/**
+ * color
+ */
+$color-con-z:#efefef;
+$color-blue-z:#0099ff;
+$color-white-z:#ffffff;
+$color-black-z:#5a5a5a;
+$color-gray-z:#d8d8d8;
+$color-bg-z:#ebebeb;
+$color-tfont-z:#7d7d7d;
+$color-tbg-z:#a4a4a4;
+$color-orange-z:#ff6a19;
+$color-btn-z:#eaeaea;
+
+.blue{
+	color: $color-blue-z;
+}
+
+.w100{
+	width: 100px;
+}
+
+.mt100{
+	margin-top: 100px;
+}
+/*font*/
+.tfont{
+	font-size: 13px;
+	color: $color-tbg-z;
+}
+
+/**/
+.calm-z{
+	color: $color-blue-z;
+	font-size: 17px;
+}
+
+ion-content{
+    background-color: $color-con-z;
+}
+
+.scroll-content {
+	padding-bottom: 50px !important;
+}
+
+.no-header{
+	
+	background-color: #f7f7f7;
+}
+.has-subheader {
+    top: 98px;
+}
+/**
+ * button
+ */
+.button.button-positive{
+	background-color: $color-blue-z;
+}
+.btn-one-z{
+	font-size: 20px;
+	text-align: center;
+	height: 48px;
+	line-height: 48px;
+	border-radius: 4px;
+}
+
+ .button-z{
+ 	height: 35px;
+	min-height: 20px;
+	line-height: 20px;
+ }
+
+ /*tab*/
+.tabs {
+ 	padding-top: 5px;
+ 	height: 60px;
+ 	border-bottom: 1px solid #ccc;
+ }
+
+.tabs-top > .tabs{
+	top: inherit;
+}
+
+ion-tabs.tabs-color-active-balanced .tab-item.tab-item-active{
+	color: $color-blue-z;
+}
+
+/*card*/
+.card{
+	box-shadow:none;
+	margin:10px 0;
+}
+
+/*input*/
+.item-input{
+    padding: 0 0 0 16px !important;
+}
+.input-z{
+	height:50px !important;
+    color: $color-tbg-z !important;
+    font-size: 17px !important;
+    line-height: 18px !important;
+}
+
+.btn-bg{
+	background-color: $color-btn-z; 
+}
+
+.tips-z{
+	color: $color-orange-z;
+	font-size: 12px;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+}
+
+/*popup*/
+/*.popup {
+    background-color: #111 !important;
+    width: 160px !important;
+    height: 160px !important;
+    border-radius: 10px !important;
+}
+
+h3, h5{
+	color:#fff !important;
+	font-size: 24px !important;
+}*/

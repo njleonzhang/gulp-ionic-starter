@@ -1,0 +1,23 @@
+<ion-view view-title="用户登陆" hide-back-button="true" cache-view="false">
+  <ion-content class="no-header" overflow-scroll="true">
+  	<form class="form-horizontal" role="form" name="login_form" novalidate>
+    	<div class="info-image"></div>
+		<div class="list">
+	        <label class="item item-input">
+	          <i class="icon ion-android-phone-portrait placeholder-icon"></i>
+	          <input type="text" class="form-control input-z" ng-pattern="/^(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/" ng-required="true" name="user_phone" ng-model="loginInfo.phone" required="required" placeholder="手机号">
+	        </label>
+	        <label class="item item-input">
+	    	  <i class="icon ion-ios-locked-outline placeholder-icon"></i>
+	    	  <input type="password" class="form-control input-z" ng-pattern="/^[0-9A-Za-z]{6,18}$/" ng-required="true" ng-model="loginInfo.password" name="user_password" required="required" placeholder="密码">
+	        </label>
+	    </div>
+		<div class="padding button-bar">
+			<button class="btn-one-z button button-block button-positive" ng-click="loginSubmit(login_form,loginInfo)">登录</button>
+		</div>
+	</form>
+	<div><span class="right" ng-click="forgetPwd()">忘记密码？</span>
+	<span class="bottom" ng-click="registerNow()"> 现在注册 > </span>
+	</div>
+  </ion-content>
+</ion-view>
