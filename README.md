@@ -11,7 +11,7 @@
 # 1. 安装gulp
 sudo npm install -g gulp
 
-# 2. 进入zrsm_worker目录,安装npm依赖:
+# 2. 进入根目录,安装npm依赖:
 npm install
 
 # 3. 启动项目
@@ -19,7 +19,6 @@ gulp
 
 此时开发的web站点将通过默认浏览器打开, livereload也生效了.
 修改代码的过程中,可以实时的在浏览器里看到变化.
-
 
 项目源码结构:
 
