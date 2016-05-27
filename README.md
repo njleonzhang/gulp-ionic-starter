@@ -32,4 +32,16 @@ component 里的每一个目录是一个组件(service, directive或者filter)
 请尽量不要引入其他的第三方样式库, 因为有可能和ionic的样式冲突, 关于ionic:
 http://ionicframework.com/
 
+# command
+
+目录下一定需要有个www目录，否则cordova命令会报错
+目录下一定要有ionic.project文件否则面会报错。
+
+ionic platform add android
+ionic platform add ios
+
+ionic state reset //根据package.json 安装所有plugin依赖。
+
+
+
 
